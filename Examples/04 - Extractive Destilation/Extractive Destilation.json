@@ -1,0 +1,226 @@
+{
+  "Name": "Destilação Extrativa",
+  "Description": "ExperimentDescription",
+  "NumberOfExperiments": 10,
+  "InputVars": [
+    {
+      "Name": "Ethanol Mol Fraction",
+      "ObjectID": "MAT-4849d47b-f280-404f-9244-21030caa3419",
+      "PropertyID": "PROP_MS_103/Ethanol",
+      "Units": "",
+      "Discrete": false,
+      "DiscreteStep": 1.0,
+      "MinValue": null,
+      "MaxValue": null,
+      "MeanValue": 0.85,
+      "StdDev": 0.013,
+      "TrustLevel": 0.95
+    },
+    {
+      "Name": "Azeotrope Temperature",
+      "ObjectID": "MAT-4849d47b-f280-404f-9244-21030caa3419",
+      "PropertyID": "PROP_MS_0",
+      "Units": "C",
+      "Discrete": false,
+      "DiscreteStep": 1.0,
+      "MinValue": null,
+      "MaxValue": null,
+      "MeanValue": 44.0,
+      "StdDev": 11.0,
+      "TrustLevel": 0.95
+    },
+    {
+      "Name": "Azeotrope Molar Flow",
+      "ObjectID": "MAT-4849d47b-f280-404f-9244-21030caa3419",
+      "PropertyID": "PROP_MS_3",
+      "Units": "kmol/h",
+      "Discrete": false,
+      "DiscreteStep": 1.0,
+      "MinValue": null,
+      "MaxValue": null,
+      "MeanValue": 100.0,
+      "StdDev": 10.0,
+      "TrustLevel": 0.95
+    },
+    {
+      "Name": "Reflux Ratio",
+      "ObjectID": "COUO-e9b847eb-d5b2-4909-88ce-f815ac221b92",
+      "PropertyID": "Reflux ratio",
+      "Units": "",
+      "Discrete": false,
+      "DiscreteStep": 1.0,
+      "MinValue": null,
+      "MaxValue": null,
+      "MeanValue": 0.33,
+      "StdDev": 0.06,
+      "TrustLevel": 0.95
+    },
+    {
+      "Name": "Feed Stage 1",
+      "ObjectID": "COUO-e9b847eb-d5b2-4909-88ce-f815ac221b92",
+      "PropertyID": "Feed1 stage",
+      "Units": "",
+      "Discrete": true,
+      "DiscreteStep": 1.0,
+      "MinValue": 5.0,
+      "MaxValue": 12.0,
+      "MeanValue": null,
+      "StdDev": null,
+      "TrustLevel": 0.95
+    }
+  ],
+  "OutputVars": [
+    {
+      "Name": "Reboiler duty",
+      "ObjectID": "COUO-e9b847eb-d5b2-4909-88ce-f815ac221b92",
+      "PropertyID": "Reboiler duty",
+      "Units": ""
+    },
+    {
+      "Name": "ETOH Molar Flow",
+      "ObjectID": "MAT-c03e6fe6-a22b-49d1-a049-1ed37d8e5abf",
+      "PropertyID": "PROP_MS_3",
+      "Units": "kmol/h"
+    },
+    {
+      "Name": "ETOH Water Molar Fraction",
+      "ObjectID": "MAT-c03e6fe6-a22b-49d1-a049-1ed37d8e5abf",
+      "PropertyID": "PROP_MS_102/Water",
+      "Units": ""
+    },
+    {
+      "Name": "ETOH EG Molar Fraction",
+      "ObjectID": "MAT-c03e6fe6-a22b-49d1-a049-1ed37d8e5abf",
+      "PropertyID": "PROP_MS_102/Ethylene glycol",
+      "Units": ""
+    },
+    {
+      "Name": "ETOH Ethanol Molar Fraction",
+      "ObjectID": "MAT-c03e6fe6-a22b-49d1-a049-1ed37d8e5abf",
+      "PropertyID": "PROP_MS_102/Ethanol",
+      "Units": ""
+    }
+  ],
+  "ExperimentData": [
+    [
+      0.84829004717402412,
+      43.427053161469686,
+      87.467298206059027,
+      0.2958356509018617,
+      6.0,
+      2702990.0,
+      72.4972582061172,
+      0.17744621070695,
+      4.7205617359857E-07,
+      0.82255331723753
+    ],
+    [
+      0.83788694091634708,
+      34.429820476199041,
+      100.29085592217045,
+      0.2530928273984332,
+      8.0,
+      2890320.0,
+      85.3208159221692,
+      0.20095854869554,
+      3.2830242078565E-09,
+      0.79904144802133
+    ],
+    [
+      0.86060814577304656,
+      52.131000155176508,
+      91.456380126677786,
+      0.31352378402231451,
+      9.0,
+      2753740.0,
+      76.486340126682,
+      0.18226429357424,
+      5.3683705430035E-11,
+      0.8177357063719
+    ],
+    [
+      0.82452046820097924,
+      35.8852554048772,
+      96.422076444709646,
+      0.33586773528324837,
+      6.0,
+      2900570.0,
+      81.4520364447132,
+      0.19731435154015,
+      1.4483169350612E-07,
+      0.80268550362693
+    ],
+    [
+      0.8555183028364971,
+      22.440396170059405,
+      93.903478040778822,
+      0.41425478207510946,
+      10.0,
+      2966050.0,
+      78.9334380407808,
+      0.18964478691704,
+      2.3303553578022E-13,
+      0.81035521308249
+    ],
+    [
+      0.84299707865746831,
+      58.613524200475425,
+      105.61609969483654,
+      0.36198886550833026,
+      5.0,
+      2997680.0,
+      90.6460596948384,
+      0.20702058321355,
+      1.7235329091944E-06,
+      0.79297769325417
+    ],
+    [
+      0.85246277331604547,
+      65.559603829940613,
+      119.59963984540055,
+      0.44759783907240325,
+      12.0,
+      3287660.0,
+      104.6295998453988,
+      0.21983996461778,
+      2.0433328111394E-17,
+      0.78016003538234
+    ],
+    [
+      0.8621754997098896,
+      47.248401639708248,
+      102.06360390632388,
+      0.3782034712309193,
+      7.0,
+      2995010.0,
+      87.09356390632199,
+      0.19541319707285,
+      3.490205863792E-09,
+      0.80458679943668
+    ],
+    [
+      0.87547953179902072,
+      23.381927946772375,
+      109.40478361267539,
+      0.21240216092759678,
+      11.0,
+      3030040.0,
+      94.4347436126784,
+      0.19573879812728,
+      0.001098990910722,
+      0.80316221096203
+    ],
+    [
+      0.83276214379345836,
+      39.300334656553929,
+      80.400360154599468,
+      0.269456480137078,
+      10.0,
+      2584960.0,
+      65.4303201546024,
+      0.15427730826122,
+      5.0040894213495E-11,
+      0.84572269168855
+    ]
+  ]
+}
