@@ -326,7 +326,10 @@ Public Class FormED
                 variable.Name = row.Cells(0).Value
                 variable.ObjectID = ReturnObject(row.Cells(1).Value).Name
                 variable.PropertyID = ReturnPropertyID(ReturnObject(row.Cells(1).Value).Name, row.Cells(2).Value)
-                variable.Discrete = Boolean.Parse(row.Cells(3).Value)
+                Try
+                    variable.Discrete = Boolean.Parse(row.Cells(3).Value)
+                Catch ex As Exception
+                End Try
                 If row.Cells(4).Value IsNot Nothing Then variable.DiscreteStep = Convert.ToDouble(row.Cells(4).Value)
                 If row.Cells(5).Value IsNot Nothing Then variable.MinValue = Convert.ToDouble(row.Cells(5).Value)
                 If row.Cells(6).Value IsNot Nothing Then variable.MaxValue = Convert.ToDouble(row.Cells(6).Value)
