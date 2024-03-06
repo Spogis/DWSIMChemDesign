@@ -18,24 +18,16 @@ ChemDesign: DWSIM Experiment Toolkit is a groundbreaking toolkit designed to rev
 
 To install the necessary dependencies, you need to have Python installed on your system. If you don't have Python, you can download it [here](https://www.python.org/downloads/). After installing Python, follow the steps below:
 
-1. **Clone the Repository**
+1. **Install Python Requirements:**
 
-   First, clone the Easy Curve Fit repository to your local machine.
+* Inside the project directory, there is a file called `requirements.txt` that contains all the necessary libraries. To install them, execute the following command: **pip install -r requirements.txt**
 
-2. **Install Dependencies**
+* This will install all the necessary python dependencies to run *ChemDesign: DWSIM Experiment Toolkit*.
 
-   Inside the project directory, there is a file called `requirements.txt` that contains all the necessary libraries. To install them, execute the following command: **pip install -r requirements.txt**
 
-   This will install all the necessary dependencies to run *ChemDesign: DWSIM Experiment Toolkit*.
-
-## Execution
-
-To install the application, follow these steps:
-
+2. **Toolkit Instalation:**
 * Download the [Toolkit Installer](https://github.com/Spogis/DWSIMChemDesign/tree/master/Toolkit%20Installer) zip file
-
-* Locate in your compluter de DWSIM Installation Folder
-
+* Locate in your computer de DWSIM Installation Folder
 * Extract the Toolkit Zip into *extenders* folder (Located Inside DWSIM Installation Folder)
 
 ## Example Datasets
