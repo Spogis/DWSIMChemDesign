@@ -636,7 +636,7 @@ Public Class FormED
 
                                    Dim jj = CurrentExperiment.InputVars.Count
                                    For Each ov In CurrentExperiment.OutputVars
-                                       data(ii)(jj) = 0.0
+                                       data(ii)(jj) = Double.NaN
                                        jj += 1
                                    Next
 
