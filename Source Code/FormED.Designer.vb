@@ -23,8 +23,8 @@ Partial Class FormED
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.tbDesc = New System.Windows.Forms.TextBox()
@@ -34,17 +34,6 @@ Partial Class FormED
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.dgInput = New System.Windows.Forms.DataGridView()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewComboBoxColumn1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DataGridViewComboBoxColumn3 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ColumnMean = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.StdDev = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.tsbAddIndVar = New System.Windows.Forms.ToolStripButton()
         Me.tsbRemoveIndVar = New System.Windows.Forms.ToolStripButton()
@@ -77,6 +66,17 @@ Partial Class FormED
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog2 = New System.Windows.Forms.SaveFileDialog()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewComboBoxColumn3 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColumnMean = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.StdDev = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -212,93 +212,6 @@ Partial Class FormED
         Me.dgInput.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
         Me.dgInput.Size = New System.Drawing.Size(835, 421)
         Me.dgInput.TabIndex = 1
-        '
-        'Column3
-        '
-        Me.Column3.FillWeight = 30.0!
-        Me.Column3.HeaderText = "Name"
-        Me.Column3.MinimumWidth = 60
-        Me.Column3.Name = "Column3"
-        '
-        'DataGridViewComboBoxColumn1
-        '
-        Me.DataGridViewComboBoxColumn1.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox
-        Me.DataGridViewComboBoxColumn1.FillWeight = 30.0!
-        Me.DataGridViewComboBoxColumn1.HeaderText = "Object"
-        Me.DataGridViewComboBoxColumn1.MinimumWidth = 100
-        Me.DataGridViewComboBoxColumn1.Name = "DataGridViewComboBoxColumn1"
-        Me.DataGridViewComboBoxColumn1.Sorted = True
-        '
-        'DataGridViewComboBoxColumn3
-        '
-        Me.DataGridViewComboBoxColumn3.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox
-        Me.DataGridViewComboBoxColumn3.DropDownWidth = 400
-        Me.DataGridViewComboBoxColumn3.FillWeight = 60.0!
-        Me.DataGridViewComboBoxColumn3.HeaderText = "Property"
-        Me.DataGridViewComboBoxColumn3.MinimumWidth = 150
-        Me.DataGridViewComboBoxColumn3.Name = "DataGridViewComboBoxColumn3"
-        '
-        'Column6
-        '
-        Me.Column6.FalseValue = "False"
-        Me.Column6.FillWeight = 10.0!
-        Me.Column6.HeaderText = "Discrete"
-        Me.Column6.IndeterminateValue = "False"
-        Me.Column6.MinimumWidth = 25
-        Me.Column6.Name = "Column6"
-        Me.Column6.TrueValue = "True"
-        '
-        'Column7
-        '
-        DataGridViewCellStyle2.NullValue = "1"
-        Me.Column7.DefaultCellStyle = DataGridViewCellStyle2
-        Me.Column7.FillWeight = 15.0!
-        Me.Column7.HeaderText = "Step"
-        Me.Column7.Name = "Column7"
-        '
-        'Column1
-        '
-        Me.Column1.FillWeight = 20.0!
-        Me.Column1.HeaderText = "Min"
-        Me.Column1.MinimumWidth = 50
-        Me.Column1.Name = "Column1"
-        '
-        'Column2
-        '
-        Me.Column2.FillWeight = 20.0!
-        Me.Column2.HeaderText = "Max"
-        Me.Column2.MinimumWidth = 50
-        Me.Column2.Name = "Column2"
-        '
-        'ColumnMean
-        '
-        Me.ColumnMean.FillWeight = 20.0!
-        Me.ColumnMean.HeaderText = "Mean"
-        Me.ColumnMean.MinimumWidth = 50
-        Me.ColumnMean.Name = "ColumnMean"
-        '
-        'StdDev
-        '
-        Me.StdDev.FillWeight = 20.0!
-        Me.StdDev.HeaderText = "StdDev"
-        Me.StdDev.MinimumWidth = 50
-        Me.StdDev.Name = "StdDev"
-        '
-        'Column4
-        '
-        Me.Column4.FillWeight = 15.0!
-        Me.Column4.HeaderText = "Trust Level"
-        Me.Column4.MinimumWidth = 25
-        Me.Column4.Name = "Column4"
-        '
-        'DataGridViewTextBoxColumn5
-        '
-        Me.DataGridViewTextBoxColumn5.FillWeight = 15.0!
-        Me.DataGridViewTextBoxColumn5.HeaderText = "Unit"
-        Me.DataGridViewTextBoxColumn5.MinimumWidth = 50
-        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        Me.DataGridViewTextBoxColumn5.ReadOnly = True
-        Me.DataGridViewTextBoxColumn5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
         '
         'ToolStrip2
         '
@@ -643,6 +556,92 @@ Partial Class FormED
         Me.SaveFileDialog2.Filter = "Excel files|*.xlsx"
         Me.SaveFileDialog2.Title = "Export Data to Excel"
         '
+        'Column3
+        '
+        Me.Column3.FillWeight = 30.0!
+        Me.Column3.HeaderText = "Name"
+        Me.Column3.MinimumWidth = 60
+        Me.Column3.Name = "Column3"
+        '
+        'DataGridViewComboBoxColumn1
+        '
+        Me.DataGridViewComboBoxColumn1.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox
+        Me.DataGridViewComboBoxColumn1.FillWeight = 30.0!
+        Me.DataGridViewComboBoxColumn1.HeaderText = "Object"
+        Me.DataGridViewComboBoxColumn1.MinimumWidth = 100
+        Me.DataGridViewComboBoxColumn1.Name = "DataGridViewComboBoxColumn1"
+        Me.DataGridViewComboBoxColumn1.Sorted = True
+        '
+        'DataGridViewComboBoxColumn3
+        '
+        Me.DataGridViewComboBoxColumn3.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox
+        Me.DataGridViewComboBoxColumn3.DropDownWidth = 400
+        Me.DataGridViewComboBoxColumn3.FillWeight = 60.0!
+        Me.DataGridViewComboBoxColumn3.HeaderText = "Property"
+        Me.DataGridViewComboBoxColumn3.MinimumWidth = 150
+        Me.DataGridViewComboBoxColumn3.Name = "DataGridViewComboBoxColumn3"
+        '
+        'Column6
+        '
+        Me.Column6.FalseValue = "False"
+        Me.Column6.FillWeight = 10.0!
+        Me.Column6.HeaderText = "Discrete"
+        Me.Column6.IndeterminateValue = "False"
+        Me.Column6.MinimumWidth = 25
+        Me.Column6.Name = "Column6"
+        Me.Column6.TrueValue = "True"
+        '
+        'Column7
+        '
+        DataGridViewCellStyle2.NullValue = "1"
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column7.FillWeight = 15.0!
+        Me.Column7.HeaderText = "Step"
+        Me.Column7.Name = "Column7"
+        '
+        'Column1
+        '
+        Me.Column1.FillWeight = 20.0!
+        Me.Column1.HeaderText = "Min"
+        Me.Column1.MinimumWidth = 50
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.FillWeight = 20.0!
+        Me.Column2.HeaderText = "Max"
+        Me.Column2.MinimumWidth = 50
+        Me.Column2.Name = "Column2"
+        '
+        'ColumnMean
+        '
+        Me.ColumnMean.FillWeight = 20.0!
+        Me.ColumnMean.HeaderText = "Mean"
+        Me.ColumnMean.MinimumWidth = 50
+        Me.ColumnMean.Name = "ColumnMean"
+        '
+        'StdDev
+        '
+        Me.StdDev.FillWeight = 20.0!
+        Me.StdDev.HeaderText = "StdDev"
+        Me.StdDev.MinimumWidth = 50
+        Me.StdDev.Name = "StdDev"
+        '
+        'Column4
+        '
+        Me.Column4.FillWeight = 15.0!
+        Me.Column4.HeaderText = "Trust Level"
+        Me.Column4.MinimumWidth = 25
+        Me.Column4.Name = "Column4"
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.FillWeight = 15.0!
+        Me.DataGridViewTextBoxColumn5.HeaderText = "Unit"
+        Me.DataGridViewTextBoxColumn5.MinimumWidth = 50
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable
+        '
         'FormED
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -720,6 +719,10 @@ Partial Class FormED
     Friend WithEvents DataGridViewComboBoxColumn2 As Windows.Forms.DataGridViewComboBoxColumn
     Friend WithEvents DataGridViewComboBoxColumn4 As Windows.Forms.DataGridViewComboBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn3 As Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents SaveFileDialog1 As Windows.Forms.SaveFileDialog
+    Friend WithEvents OpenFileDialog1 As Windows.Forms.OpenFileDialog
+    Friend WithEvents Button1 As Windows.Forms.Button
+    Friend WithEvents SaveFileDialog2 As Windows.Forms.SaveFileDialog
     Friend WithEvents Column3 As Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewComboBoxColumn1 As Windows.Forms.DataGridViewComboBoxColumn
     Friend WithEvents DataGridViewComboBoxColumn3 As Windows.Forms.DataGridViewComboBoxColumn
@@ -731,8 +734,4 @@ Partial Class FormED
     Friend WithEvents StdDev As Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Column4 As Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn5 As Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents SaveFileDialog1 As Windows.Forms.SaveFileDialog
-    Friend WithEvents OpenFileDialog1 As Windows.Forms.OpenFileDialog
-    Friend WithEvents Button1 As Windows.Forms.Button
-    Friend WithEvents SaveFileDialog2 As Windows.Forms.SaveFileDialog
 End Class
