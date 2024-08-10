@@ -38,6 +38,20 @@ To install the necessary dependencies, you need to have Python installed on your
 
 If you encounter any problems or have any questions, do not hesitate to open an issue in the GitHub repository or contact us directly.
 
+## How to cite Grid Convergence Lab in your publications
+
+If you find Grid Convergence Lab to be useful, please consider citing it in your published work:
+
+      @misc{DWSIMChemDesign,
+         author = {SPOGIS, N.},
+         title = {ChemDesign: DWSIM Experiment Toolkit},
+         subtitle = {A Python package for DOE Analysis},
+         note = "https://github.com/Spogis/GridConvergenceLab",
+         year = {2024},
+      }
+
+or, via Zenodo:
+
 ## Contact: https://linktr.ee/CascaGrossaSuprema
 
 ---
