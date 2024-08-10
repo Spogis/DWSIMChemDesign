@@ -42,18 +42,29 @@ If you encounter any problems or have any questions, do not hesitate to open an 
 
 If you find Grid Convergence Lab to be useful, please consider citing it in your published work:
 
-      @misc{DWSIMChemDesign,
-         author = {SPOGIS, N.},
-         title = {ChemDesign: DWSIM Experiment Toolkit},
-         subtitle = {A Python package for DOE Analysis},
-         note = "https://github.com/Spogis/GridConvergenceLab",
-         year = {2024},
-      }
+    @misc{DWSIMChemDesign,
+        author = {SPOGIS, N.},
+        title = {ChemDesign: DWSIM Experiment Toolkit},
+        subtitle = {A Python package for DOE Analysis},
+        note = "https://github.com/Spogis/GridConvergenceLab",
+        year = {2024},
+    }
 
 or, via Zenodo:
 
-## Contact: https://linktr.ee/CascaGrossaSuprema
+    @software{nicolas_spogis_2024_13293154,
+        author       = {Nicolas Spogis},
+        title        = {Spogis/DWSIMChemDesign: v1.0.3},
+        month        = aug,
+        year         = 2024,
+        publisher    = {Zenodo},
+        version      = {v1.0.3},
+        doi          = {10.5281/zenodo.13293154},
+        url          = {https://doi.org/10.5281/zenodo.13293154}    
+    }
 
+## Contact: https://linktr.ee/CascaGrossaSuprema
+    
 ---
 
 We hope you enjoy using ChemDesign: DWSIM Experiment Toolkit
