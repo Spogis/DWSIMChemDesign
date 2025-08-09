@@ -12,24 +12,6 @@ ChemDesign: DWSIM Experiment Toolkit is a groundbreaking toolkit designed to rev
 
 * Intuitive User Interface: Features an easy-to-use interface that guides users through the process of designing and running experiments.
 
----
-
-## Installation
-
-To install the necessary dependencies, you need to have Python installed on your system. If you don't have Python, you can download it [here](https://www.python.org/downloads/). After installing Python, follow the steps below:
-
-1. **Install Python Requirements:**
-
-* Inside the project directory, there is a file called `requirements.txt` that contains all the necessary libraries. To install them, execute the following command: **pip install -r requirements.txt**
-
-* This will install all the necessary python dependencies to run *ChemDesign: DWSIM Experiment Toolkit*.
-
-
-2. **Toolkit Instalation:**
-* Download the [Toolkit Installer](https://github.com/Spogis/DWSIMChemDesign/tree/master/Toolkit%20Installer) zip file
-* Locate in your computer de DWSIM Installation Folder
-* Extract the Toolkit Zip into *extenders* folder (Located Inside DWSIM Installation Folder)
-
 ## Example Datasets
 
 * In the [Examples](https://github.com/Spogis/DWSIMChemDesign/tree/master/Examples) directory, you will find example datasets that can assist you.
@@ -38,7 +20,7 @@ To install the necessary dependencies, you need to have Python installed on your
 
 If you encounter any problems or have any questions, do not hesitate to open an issue in the GitHub repository or contact us directly.
 
-## How to cite Grid Convergence Lab in your publications
+## How to cite ChemDesign: DWSIM Experiment Toolkit in your publications
 
 If you find Grid Convergence Lab to be useful, please consider citing it in your published work:
 
@@ -63,7 +45,7 @@ or, via Zenodo:
         url          = {https://doi.org/10.5281/zenodo.13293154}    
     }
 
-## Contact: https://linktr.ee/CascaGrossaSuprema
+## Contact: https://linktr.ee/Ai4Tech
     
 ---
 
